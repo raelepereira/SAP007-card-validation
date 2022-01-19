@@ -78,6 +78,13 @@ body {
     margin-left: 240px;
 }
 
+.resultado {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    margin-left: 285px;
+    color:#ECD6C4
+}
+
 .conteudo-principal-escrito-botao {
     background-color: #ECD6C4;
     width: 150px;
