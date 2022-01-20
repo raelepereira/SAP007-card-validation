@@ -1,3 +1,4 @@
+//ocultar os números na tela e deixar apenas os últimos 4
 const ocultar = {
     cardHide(cardNumber) {
       let hideNum = [];

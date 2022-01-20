@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Validation</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="index.js" type="module"></script>
+
 </head>
+
 <body>
     <header class="cabecalho">
         <img class="cabecalho-imagem" src="vector.png">
@@ -18,29 +21,33 @@
             <a class="cabecalho-menu-item">Contato</a>
         </nav>
     </header>
-    
+
     <main class="conteudo">
         <section class="conteudo-principal">
             <div class="conteudo-principal-escrito">
                 <h1 class="conteudo-principal-escrito-titulo">Card Validation</h1>
-                <h2 class="conteudo-principal-escrito-subtitulo">Digite o número do cartão que deseja validar abaixo:</h2>
-                <input class="input" type="password" maxlength="16"> 
-                <p class= "resultado">Número do cartão:</p>
+                <h2 class="conteudo-principal-escrito-subtitulo">Digite o número do cartão que deseja validar abaixo:
+                </h2>
+                <input class="input" type="password" maxlength="16">
                 <button class="conteudo-principal-escrito-botao btn" type="button">Validar cartão</button>
-               
-           </div>
-            <img class="conteudo-principal-imagem" src="imagemprincipal3.png">
-      </section>
-        
-      <section class="conteudo-secundario">
-      <h3 class="conteudo-secundario-titulo">Por que devo fazer a validação do meu cartão?</h3>
-        <p class="conteudo-secundario-paragrafo"> A validação do cartão é um processo importante para garantir que<br> seus pagamentos sejam aprovados com mais rapidez e segurança. </p>
-       </section>
+                <div class="resultado"></div>
+            </div>
+            <div class="card-container">
+                <img class="conteudo-principal-imagem" src="imagemprincipal3.png">
+            </div>
+
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Por que devo fazer a validação do meu cartão?</h3>
+            <p class="conteudo-secundario-paragrafo"> A verificação do cartão é obrigatória para fazermos<br> algumas validações e garantir mais segurança <br>nas suas compras e pagamentos. </p>
+        </section>
     </main>
 
     <footer class="rodape">
         <p class="rodape-paragrafo">© 2022 Raele Pereira, Rio de Janeiro - RJ</p>
     </footer>
-    <script src="index.js" type="module"></script>
+
 </body>
+
 </html>
