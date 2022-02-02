@@ -12,6 +12,11 @@ body {
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%)
 }
 
+li {
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
 .cabecalho {
     display: flex;
     flex-direction:row;
@@ -56,38 +61,27 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-    align-items: center;
-    margin-left: 90px;
+    margin-left: 220px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
     color: #FFF2E7
-    
 }
 
 .conteudo-principal-escrito-subtitulo {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22x;
     color: #ECD6C4;
-    margin-left: px;
-    text-align: center;
+    margin-left: 100px;
+    text-align:center;
 }
-
-
 
 .input {
     width: 250px;
     height: 30px;
     border-radius: 20px;
-    margin-left: 200px;
-}
-
-.resultado {
-    font-family: 'Sarala', sans-serif;
-    font-size: 18px;
-    margin-left: 230px;
-    color:#ECD6C4
+    margin-left: 400px;
 }
 
 .conteudo-principal-escrito-botao {
@@ -101,12 +95,19 @@ body {
     font-weight: 400;
     font-size: 18px;
     color: #2F2325;
-    margin-left: 250px;
+    margin-left: 445px;
 }
 
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
 } 
+
+.resultado {
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    color: #ECD6C4;
+    
+}
 
 .conteudo-secundario {
     display: flex;
@@ -121,17 +122,17 @@ body {
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 28px;
     color: #FFF2EF;
     margin-bottom: 16px;
 }    
 
-.conteudo-secundario-paragrafo {
+.conteudo-secundario-lista {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     color: #ECD6C4;
-    text-align: center;
+
 }
 
 .rodape {
