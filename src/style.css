@@ -61,7 +61,7 @@ li {
 }
 
 .conteudo-principal-escrito-titulo {
-    margin-left: 220px;
+    margin-left: 180px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
@@ -73,7 +73,7 @@ li {
     font-weight: 400;
     font-size: 22x;
     color: #ECD6C4;
-    margin-left: 100px;
+    margin-left: 55px;
     text-align:center;
 }
 
@@ -81,7 +81,7 @@ li {
     width: 250px;
     height: 30px;
     border-radius: 20px;
-    margin-left: 400px;
+    margin-left: 355px;
 }
 
 .conteudo-principal-escrito-botao {
@@ -95,7 +95,7 @@ li {
     font-weight: 400;
     font-size: 18px;
     color: #2F2325;
-    margin-left: 445px;
+    margin-left: 400px;
 }
 
 .conteudo-principal-escrito-botao:hover {
@@ -104,9 +104,9 @@ li {
 
 .resultado {
     font-family: 'Sarala', sans-serif;
-    font-size: 15px;
-    color: #ECD6C4;
-    
+    font-size: 18px;
+    color: hsl(27, 51%, 85%);
+    margin-left: 400px;
 }
 
 .conteudo-secundario {

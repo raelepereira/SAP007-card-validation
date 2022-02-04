@@ -1,5 +1,6 @@
 import validator from "./validator.js";
 
+
 document.querySelector(".btn").addEventListener("click", Documentos);
 
 function Documentos() {
@@ -10,23 +11,6 @@ function Documentos() {
   console.log(validator.isValid(pegaValor))
   
 }
-
-//função para ocultar os números e mostrar apenas os últimos 4.
-
-/*const maskify = {
-  cardHide(cardNumber) {   //função cardHide // aceita CardNumber(string) como argumento
-    let hideNum = [];     //hideNum:  variável que a função irá retornar
-        for(let i = 0; i < cardNumber.length; i++){//após o término do loop, fica a matriz c os nu. do cartão par. ocultados 
-      if(i < cardNumber.length-4){ 
-        hideNum.push("#");
-      }else{
-        hideNum.push(cardNumber[i]);
-      }
-    }
-    return hideNum.join(""); //método para converter o array em uma string
-  }
-};
-*/
 
 //função para o input aceitar apenas números.
 
