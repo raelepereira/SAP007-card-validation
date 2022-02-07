@@ -1,16 +1,30 @@
 import validator from "./validator.js";
 
+const inputDoNumeroDoCartao = document.querySelector(".input");
+const resultado = document.querySelector(".resultado");
+const btn = document.querySelector(".btn");
 
-document.querySelector(".btn").addEventListener("click", Documentos);
+btn.addEventListener("click", Documentos);
+
 
 function Documentos() {
-  let pegaValor = document.querySelector(".input").value;
-  document.querySelector(".resultado").innerHTML = validator.maskify(pegaValor);
+  const pegaValor = inputDoNumeroDoCartao.value;
+  resultado.innerHTML = validator.maskify(pegaValor);
+
+  const numeroEValido = validator.isValid(pegaValor)
+  if(numeroEValido){ 
+    window.alert("Cartão Válido")
+   
+   } else { 
+    window.alert("Cartão Inválido")
+    
+    }
   
   console.log(validator.maskify(pegaValor))
   console.log(validator.isValid(pegaValor))
   
 }
+
 
 //função para o input aceitar apenas números.
 

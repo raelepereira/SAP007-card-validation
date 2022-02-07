@@ -6,12 +6,12 @@
 - [2. Ideação do projeto](#2-Ideação-do-projeto)
 - [3. Tecnologias utilizadas](#3-Tecnologias-utilizadas)
 - [4. Como funciona?](#2-Como-funciona?)
-- [5. Como usar?] (#2-Como-usar?)
+- [5. Como usar?](#2-Como-usar?)
 ---
 
 ## 1. Proposta do projeto
 
-Neste projeto foi proposto usar o Algorotimo de luhn para validar números de cartão de credito.
+Neste projeto foi proposto usar o [Algoritmo de luhn] (https://en.wikipedia.org/wiki/Luhn_algorithm) para validar números de cartão de credito.
 
 
 ## 2. Ideação do projeto
@@ -21,12 +21,12 @@ O site é um validador de número de cartão de crédito. Após o usuário inser
 
 ## 3. Tecnologias utilizadas
 
-HTML5
-CSS3
-JavaScript Vanilla
-Node.js
-Git e GitHub
-Trello
+-HTML5
+-CSS3
+-JavaScript Vanilla
+-Node.js
+-Git e GitHub
+-Trello
 
 
 ## 4. Como funciona?
@@ -35,21 +35,25 @@ Primeiro você preenche corretamente todos os campos com suas informações, e o
 
 ## 5. Como usar?
 
-Você precisará usar o Node.js
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Clonar o projeto
+# Clonar o projeto
+`$ git clone https://github.com/raelepereira/SAP007-card-validation.git`
 
-$ git clone https://github.com/raelepereira/SAP007-card-validation.git
+# Instalar as dependências 
+` $ npm install or yarn`
 
-Instalar as dependências do projeto
+# Iniciar a aplicação
+` $ npm start or yarn start`
 
-$ npm install or yarn
+# Realizar os testes unitários
+`$ npm test or yarn test`
 
-Iniciar a aplicação
+## Autor
+---
+Criado por [Raele Pereira](https://github.com/raelepereira) 👋 entre em contato!
 
-$ npm start or yarn start
-
-Realizar os testes unitários
-
-$ npm test or yarn test
-
+<a href="https://www.linkedin.com/in/raele-pereira-59b804201/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ 
