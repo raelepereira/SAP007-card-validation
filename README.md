@@ -11,7 +11,7 @@
 
 ## 1. Proposta do projeto
 
-Neste projeto foi proposto usar o [Algoritmo de luhn] (https://en.wikipedia.org/wiki/Luhn_algorithm) para validar números de cartão de credito.
+Neste projeto foi proposto usar o [Algoritmo de luhn](https://en.wikipedia.org/wiki/Luhn_algorithm) para validar números de cartão de credito.
 
 
 ## 2. Ideação do projeto
