@@ -52,7 +52,7 @@ Instalar as dependências
 `$ npm test or yarn test`
 
 ## Autor
----
+
 Criado por [Raele Pereira](https://github.com/raelepereira) 👋 entre em contato!
 
 <a href="https://www.linkedin.com/in/raele-pereira-59b804201/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
