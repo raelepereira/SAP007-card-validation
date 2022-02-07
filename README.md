@@ -31,7 +31,7 @@ O site é um validador de número de cartão de crédito. Após o usuário inser
 
 ## 4. Como funciona?
 
-Primeiro você preenche corretamente todos os campos com suas informações, e os dados do seu cartão passa por toda parte logica no Validator.isValid, eles são jogados para o index.js, onde fica responsável por dividir os números em grupo de 4 e mostrar para o usuário, se o cartão é valido, se não, pede um número de cartão valido. Já o Validator.Maskify fica responsável por transformas os numeros em #(hashtags).
+Primeiro você preenche corretamente todos os campos com suas informações, e os dados do seu cartão passam por toda parte lógica no Validator.isValid, eles são jogados para o index.js, que fica responsável por mostrar para o usuário se o cartão é valido, se não, aparece um alert dizendo que é inválido. Já o Validator.Maskify fica responsável por transformar os numeros em #(hashtags).
 
 ## 5. Como usar?
 
