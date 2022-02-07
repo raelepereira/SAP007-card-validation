@@ -21,12 +21,12 @@ O site é um validador de número de cartão de crédito. Após o usuário inser
 
 ## 3. Tecnologias utilizadas
 
--HTML5
--CSS3
--JavaScript Vanilla
--Node.js
--Git e GitHub
--Trello
+1. HTML5
+2. CSS3
+3. JavaScript Vanilla
+4. Node.js
+4. Git e GitHub
+5. Trello
 
 
 ## 4. Como funciona?
@@ -39,16 +39,16 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-# Clonar o projeto
+Clonar o projeto
 `$ git clone https://github.com/raelepereira/SAP007-card-validation.git`
 
-# Instalar as dependências 
+Instalar as dependências 
 ` $ npm install or yarn`
 
-# Iniciar a aplicação
+ Iniciar a aplicação
 ` $ npm start or yarn start`
 
-# Realizar os testes unitários
+ Realizar os testes unitários
 `$ npm test or yarn test`
 
 ## Autor
